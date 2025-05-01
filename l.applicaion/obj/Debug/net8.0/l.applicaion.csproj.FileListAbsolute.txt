@@ -1,0 +1,17 @@
+D:\Projects\dock\l.applicaion\bin\Debug\net8.0\l.applicaion.deps.json
+D:\Projects\dock\l.applicaion\bin\Debug\net8.0\l.applicaion.dll
+D:\Projects\dock\l.applicaion\bin\Debug\net8.0\l.applicaion.pdb
+D:\Projects\dock\l.applicaion\bin\Debug\net8.0\domain.dll
+D:\Projects\dock\l.applicaion\bin\Debug\net8.0\infrastructure.dll
+D:\Projects\dock\l.applicaion\bin\Debug\net8.0\infrastructure.pdb
+D:\Projects\dock\l.applicaion\bin\Debug\net8.0\domain.pdb
+D:\Projects\dock\l.applicaion\obj\Debug\net8.0\l.applicaion.csproj.AssemblyReference.cache
+D:\Projects\dock\l.applicaion\obj\Debug\net8.0\l.applicaion.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\dock\l.applicaion\obj\Debug\net8.0\l.applicaion.AssemblyInfoInputs.cache
+D:\Projects\dock\l.applicaion\obj\Debug\net8.0\l.applicaion.AssemblyInfo.cs
+D:\Projects\dock\l.applicaion\obj\Debug\net8.0\l.applicaion.csproj.CoreCompileInputs.cache
+D:\Projects\dock\l.applicaion\obj\Debug\net8.0\l.applicaion.csproj.CopyComplete
+D:\Projects\dock\l.applicaion\obj\Debug\net8.0\l.applicaion.dll
+D:\Projects\dock\l.applicaion\obj\Debug\net8.0\refint\l.applicaion.dll
+D:\Projects\dock\l.applicaion\obj\Debug\net8.0\l.applicaion.pdb
+D:\Projects\dock\l.applicaion\obj\Debug\net8.0\ref\l.applicaion.dll
