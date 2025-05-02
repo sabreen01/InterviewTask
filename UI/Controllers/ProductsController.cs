@@ -47,7 +47,6 @@ namespace UI.Controllers
             return  Ok();
         }
 
-        //UpdateProductCommand
 
         [HttpPut]
         public async Task<IActionResult> Update(ProductDto product)

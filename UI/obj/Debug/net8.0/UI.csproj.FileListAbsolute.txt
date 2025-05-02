@@ -157,3 +157,4 @@ D:\Projects\dock\UI\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDeriva
 D:\Projects\dock\UI\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 D:\Projects\dock\UI\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
 D:\Projects\dock\UI\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Projects\dock\UI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

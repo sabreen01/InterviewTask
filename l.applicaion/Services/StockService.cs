@@ -14,7 +14,7 @@ namespace l.applicaion.Services
             _unitOfWork = unitOfWork;
         }
 
-        public async Task<bool> AddStock(StockTransactionDto stockTransactionDto)
+        public async Task<bool> AddStock(StockTransactionDto stockTransactionDto,string userId)
         {
             var transaction = new Transaction
             {
@@ -23,7 +23,7 @@ namespace l.applicaion.Services
                 Quantity = stockTransactionDto.Quantity,
                 TransactionTypeId = (int)TransactionTypeEnum.add,
                 Date = DateTime.Now,
-                UserId = 1,
+                UserId = userId,
             };
 
             await _unitOfWork.TransactionRepository.AddAsync(transaction);
@@ -31,7 +31,7 @@ namespace l.applicaion.Services
             return true;
         }
 
-        public async Task<bool> RemoveStock(StockTransactionDto stockTransactionDto)
+        public async Task<bool> RemoveStock(StockTransactionDto stockTransactionDto, string userId)
         {
             var transaction = new Transaction
             {
@@ -40,7 +40,7 @@ namespace l.applicaion.Services
                 Quantity = stockTransactionDto.Quantity * -1,
                 TransactionTypeId = (int)TransactionTypeEnum.remove,
                 Date = DateTime.Now,
-                UserId = 1,
+               UserId = userId,
             };
             await _unitOfWork.TransactionRepository.AddAsync(transaction);
             await _unitOfWork.SaveChangesAsync();
@@ -48,7 +48,7 @@ namespace l.applicaion.Services
             return true;
         }
 
-        public async Task<bool> TransferStock(StockTransferDto stockTransactionDto)
+        public async Task<bool> TransferStock(StockTransferDto stockTransactionDto, string userId)
         {
             var removeTransaction = new Transaction
             {
@@ -57,7 +57,7 @@ namespace l.applicaion.Services
                 Quantity = stockTransactionDto.Quantity * -1,
                 TransactionTypeId = (int)TransactionTypeEnum.remove,
                 Date = DateTime.Now,
-                UserId = 1,
+                UserId = userId,
             };
             
             var addTransaction = new Transaction
@@ -67,7 +67,7 @@ namespace l.applicaion.Services
                 Quantity = stockTransactionDto.Quantity,
                 TransactionTypeId = (int)TransactionTypeEnum.add,
                 Date = DateTime.Now,
-                UserId = 1,
+                UserId = userId,
             };
 
             await _unitOfWork.TransactionRepository.AddAsync(removeTransaction);

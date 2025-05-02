@@ -4,7 +4,7 @@ using MediatR;
 
 namespace l.applicaion.CQRS.WriteCommands
 {
-    public record AddStockCommand(StockTransactionDto transaction) : IRequest;
+    public record AddStockCommand(StockTransactionDto transaction, string userId) : IRequest;
 
     public class AddStockHandler : IRequestHandler<AddStockCommand>
     {
@@ -17,7 +17,7 @@ namespace l.applicaion.CQRS.WriteCommands
 
         public async Task<Unit> Handle(AddStockCommand request, CancellationToken cancellationToken)
         {
-            await _service.AddStock(request.transaction);
+            await _service.AddStock(request.transaction, request.userId);
             return Unit.Value;
         }
     }

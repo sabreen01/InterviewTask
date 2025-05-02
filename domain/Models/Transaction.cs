@@ -1,5 +1,6 @@
 ﻿
 using domain.Enums;
+using Microsoft.AspNetCore.Identity;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace domain.Models
@@ -19,6 +20,11 @@ namespace domain.Models
         [ForeignKey("WarehouseId")]
         public virtual Warehouse Warehouse { get; set; }
         public int Quantity { get; set; }
-        public int? UserId { get; set; }
+        public string UserId { get; set; }
+
+        [ForeignKey("UserId")]
+        public virtual IdentityUser User { get; set; }
+
+        public bool IsArchived { get; set; } = false;
     }
 }

@@ -47,6 +47,14 @@ namespace infrastructure.Migrations
                         .HasFilter("[NormalizedName] IS NOT NULL");
 
                     b.ToTable("AspNetRoles", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = "b2da474d-a3ed-4d9d-8721-90a17ef6a4d8",
+                            Name = "admin",
+                            NormalizedName = "ADMIN"
+                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -137,6 +145,24 @@ namespace infrastructure.Migrations
                         .HasFilter("[NormalizedUserName] IS NOT NULL");
 
                     b.ToTable("AspNetUsers", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = "a94188ea-e7e6-4359-bebc-a489a675fba8",
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "5d0fc983-045b-4948-9c1c-e1ab4db1f9ca",
+                            Email = "ad@hh.com",
+                            EmailConfirmed = false,
+                            LockoutEnabled = false,
+                            NormalizedEmail = "AD@HH.COM",
+                            NormalizedUserName = "AHMED",
+                            PasswordHash = "AQAAAAIAAYagAAAAEFaxE07NGTqsxIggMwbEwq6c8d7xq0PECWWPgQgrIKXDWssvqxCSXrtBGCS/cQIIFQ==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "F4Y2Z6X5W5AWDWZ3J7B62XSNOOWJCIUB",
+                            TwoFactorEnabled = false,
+                            UserName = "ahmed"
+                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
@@ -199,6 +225,13 @@ namespace infrastructure.Migrations
                     b.HasIndex("RoleId");
 
                     b.ToTable("AspNetUserRoles", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            UserId = "a94188ea-e7e6-4359-bebc-a489a675fba8",
+                            RoleId = "b2da474d-a3ed-4d9d-8721-90a17ef6a4d8"
+                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
@@ -261,6 +294,9 @@ namespace infrastructure.Migrations
                     b.Property<DateTime>("Date")
                         .HasColumnType("datetime2");
 
+                    b.Property<bool>("IsArchived")
+                        .HasColumnType("bit");
+
                     b.Property<int>("ProductId")
                         .HasColumnType("int");
 
@@ -270,8 +306,9 @@ namespace infrastructure.Migrations
                     b.Property<int>("TransactionTypeId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("UserId")
-                        .HasColumnType("int");
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<int>("WarehouseId")
                         .HasColumnType("int");
@@ -281,6 +318,8 @@ namespace infrastructure.Migrations
                     b.HasIndex("ProductId");
 
                     b.HasIndex("TransactionTypeId");
+
+                    b.HasIndex("UserId");
 
                     b.HasIndex("WarehouseId");
 
@@ -390,6 +429,12 @@ namespace infrastructure.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("domain.Models.Warehouse", "Warehouse")
                         .WithMany("Transactions")
                         .HasForeignKey("WarehouseId")
@@ -399,6 +444,8 @@ namespace infrastructure.Migrations
                     b.Navigation("Product");
 
                     b.Navigation("TransactionType");
+
+                    b.Navigation("User");
 
                     b.Navigation("Warehouse");
                 });

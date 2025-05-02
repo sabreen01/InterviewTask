@@ -8,18 +8,8 @@ using System.Threading.Tasks;
 
 namespace domain.Models
 {
-    public class User : IdentityUser<int>
+    public class User : IdentityUser
     {
-        public virtual ICollection<UserRole> UserRoles { get; set; }
     }
 
-    public class UserRole : IdentityUserRole<int>
-    {
-        public virtual User User { get; set; }
-        public virtual Role Role { get; set; }
-    }
-
-    public class Role : IdentityRole<int>
-    {
-    }
 }
