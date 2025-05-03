@@ -156,12 +156,12 @@ namespace infrastructure.Migrations
                             EmailConfirmed = false,
                             LockoutEnabled = false,
                             NormalizedEmail = "AD@HH.COM",
-                            NormalizedUserName = "AHMED",
+                            NormalizedUserName = "FARAH",
                             PasswordHash = "AQAAAAIAAYagAAAAEFaxE07NGTqsxIggMwbEwq6c8d7xq0PECWWPgQgrIKXDWssvqxCSXrtBGCS/cQIIFQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "F4Y2Z6X5W5AWDWZ3J7B62XSNOOWJCIUB",
                             TwoFactorEnabled = false,
-                            UserName = "ahmed"
+                            UserName = "farah"
                         });
                 });
 

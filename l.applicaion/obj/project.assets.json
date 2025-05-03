@@ -2630,11 +2630,12 @@
       ]
     },
     "System.ComponentModel.Primitives/4.3.0": {
-      "sha512": "KMVuoQ+8bMQ/Z59M3s64num5AD74X5YSqVc7ibwGkPTfmmkl2W8VuSxLRJtpw4KzQrSKUgR0BLbF0adPfcTSGQ==",
+      "sha512": "j8GUkCpM8V4d4vhLIIoBLGey2Z5bCkMVNjEZseyAlm4n5arcsJOeI3zkUP+zvZgzsbLTYh4lYeP/ZD/gdIAPrw==",
       "type": "package",
       "path": "system.componentmodel.primitives/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -4281,23 +4282,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Fix-Dell\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Sabreen Essam\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\dock\\l.applicaion\\l.applicaion.csproj",
+      "projectUniqueName": "E:\\New folder\\InterviewTask\\l.applicaion\\l.applicaion.csproj",
       "projectName": "l.applicaion",
-      "projectPath": "D:\\Projects\\dock\\l.applicaion\\l.applicaion.csproj",
-      "packagesPath": "C:\\Users\\Fix-Dell\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\dock\\l.applicaion\\obj\\",
+      "projectPath": "E:\\New folder\\InterviewTask\\l.applicaion\\l.applicaion.csproj",
+      "packagesPath": "C:\\Users\\Sabreen Essam\\.nuget\\packages\\",
+      "outputPath": "E:\\New folder\\InterviewTask\\l.applicaion\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Fix-Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Sabreen Essam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4305,14 +4307,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Projects\\dock\\infrastructure\\infrastructure.csproj": {
-              "projectPath": "D:\\Projects\\dock\\infrastructure\\infrastructure.csproj"
+            "E:\\New folder\\InterviewTask\\infrastructure\\infrastructure.csproj": {
+              "projectPath": "E:\\New folder\\InterviewTask\\infrastructure\\infrastructure.csproj"
             }
           }
         }
@@ -4321,7 +4324,13 @@
         "warnAsError": [
           "NU1605"
         ]
-      }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -4356,7 +4365,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

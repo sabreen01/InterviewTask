@@ -15,3 +15,21 @@ D:\Projects\dock\l.applicaion\obj\Debug\net8.0\l.applicaion.dll
 D:\Projects\dock\l.applicaion\obj\Debug\net8.0\refint\l.applicaion.dll
 D:\Projects\dock\l.applicaion\obj\Debug\net8.0\l.applicaion.pdb
 D:\Projects\dock\l.applicaion\obj\Debug\net8.0\ref\l.applicaion.dll
+E:\New folder\InterviewTask\l.applicaion\bin\Debug\net8.0\l.applicaion.deps.json
+E:\New folder\InterviewTask\l.applicaion\bin\Debug\net8.0\l.applicaion.dll
+E:\New folder\InterviewTask\l.applicaion\bin\Debug\net8.0\l.applicaion.pdb
+E:\New folder\InterviewTask\l.applicaion\bin\Debug\net8.0\domain.dll
+E:\New folder\InterviewTask\l.applicaion\bin\Debug\net8.0\infrastructure.dll
+E:\New folder\InterviewTask\l.applicaion\bin\Debug\net8.0\infrastructure.pdb
+E:\New folder\InterviewTask\l.applicaion\bin\Debug\net8.0\domain.pdb
+E:\New folder\InterviewTask\l.applicaion\obj\Debug\net8.0\l.applicaion.csproj.AssemblyReference.cache
+E:\New folder\InterviewTask\l.applicaion\obj\Debug\net8.0\l.applicaion.GeneratedMSBuildEditorConfig.editorconfig
+E:\New folder\InterviewTask\l.applicaion\obj\Debug\net8.0\l.applicaion.AssemblyInfoInputs.cache
+E:\New folder\InterviewTask\l.applicaion\obj\Debug\net8.0\l.applicaion.AssemblyInfo.cs
+E:\New folder\InterviewTask\l.applicaion\obj\Debug\net8.0\l.applicaion.csproj.CoreCompileInputs.cache
+E:\New folder\InterviewTask\l.applicaion\obj\Debug\net8.0\l.applicaion.sourcelink.json
+E:\New folder\InterviewTask\l.applicaion\obj\Debug\net8.0\l.applic.D6F52C11.Up2Date
+E:\New folder\InterviewTask\l.applicaion\obj\Debug\net8.0\l.applicaion.dll
+E:\New folder\InterviewTask\l.applicaion\obj\Debug\net8.0\refint\l.applicaion.dll
+E:\New folder\InterviewTask\l.applicaion\obj\Debug\net8.0\l.applicaion.pdb
+E:\New folder\InterviewTask\l.applicaion\obj\Debug\net8.0\ref\l.applicaion.dll

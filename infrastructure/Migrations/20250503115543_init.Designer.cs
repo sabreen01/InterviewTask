@@ -12,8 +12,8 @@ using infrastructure.Db;
 namespace infrastructure.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250502123905_add-archive")]
-    partial class addarchive
+    [Migration("20250503115543_init")]
+    partial class init
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -159,12 +159,12 @@ namespace infrastructure.Migrations
                             EmailConfirmed = false,
                             LockoutEnabled = false,
                             NormalizedEmail = "AD@HH.COM",
-                            NormalizedUserName = "AHMED",
+                            NormalizedUserName = "FARAH",
                             PasswordHash = "AQAAAAIAAYagAAAAEFaxE07NGTqsxIggMwbEwq6c8d7xq0PECWWPgQgrIKXDWssvqxCSXrtBGCS/cQIIFQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "F4Y2Z6X5W5AWDWZ3J7B62XSNOOWJCIUB",
                             TwoFactorEnabled = false,
-                            UserName = "ahmed"
+                            UserName = "farah"
                         });
                 });
 

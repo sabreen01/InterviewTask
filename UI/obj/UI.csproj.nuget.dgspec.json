@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\dock\\UI\\UI.csproj": {}
+    "E:\\New folder\\InterviewTask\\UI\\UI.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\dock\\domain\\domain.csproj": {
+    "E:\\New folder\\InterviewTask\\domain\\domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\dock\\domain\\domain.csproj",
+        "projectUniqueName": "E:\\New folder\\InterviewTask\\domain\\domain.csproj",
         "projectName": "domain",
-        "projectPath": "D:\\Projects\\dock\\domain\\domain.csproj",
-        "packagesPath": "C:\\Users\\Fix-Dell\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\dock\\domain\\obj\\",
+        "projectPath": "E:\\New folder\\InterviewTask\\domain\\domain.csproj",
+        "packagesPath": "C:\\Users\\Sabreen Essam\\.nuget\\packages\\",
+        "outputPath": "E:\\New folder\\InterviewTask\\domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Fix-Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Sabreen Essam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -37,7 +39,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -88,24 +96,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Projects\\dock\\infrastructure\\infrastructure.csproj": {
+    "E:\\New folder\\InterviewTask\\infrastructure\\infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\dock\\infrastructure\\infrastructure.csproj",
+        "projectUniqueName": "E:\\New folder\\InterviewTask\\infrastructure\\infrastructure.csproj",
         "projectName": "infrastructure",
-        "projectPath": "D:\\Projects\\dock\\infrastructure\\infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Fix-Dell\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\dock\\infrastructure\\obj\\",
+        "projectPath": "E:\\New folder\\InterviewTask\\infrastructure\\infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Sabreen Essam\\.nuget\\packages\\",
+        "outputPath": "E:\\New folder\\InterviewTask\\infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Fix-Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Sabreen Essam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -113,14 +122,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Projects\\dock\\domain\\domain.csproj": {
-                "projectPath": "D:\\Projects\\dock\\domain\\domain.csproj"
+              "E:\\New folder\\InterviewTask\\domain\\domain.csproj": {
+                "projectPath": "E:\\New folder\\InterviewTask\\domain\\domain.csproj"
               }
             }
           }
@@ -129,7 +139,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -150,24 +166,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Projects\\dock\\l.applicaion\\l.applicaion.csproj": {
+    "E:\\New folder\\InterviewTask\\l.applicaion\\l.applicaion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\dock\\l.applicaion\\l.applicaion.csproj",
+        "projectUniqueName": "E:\\New folder\\InterviewTask\\l.applicaion\\l.applicaion.csproj",
         "projectName": "l.applicaion",
-        "projectPath": "D:\\Projects\\dock\\l.applicaion\\l.applicaion.csproj",
-        "packagesPath": "C:\\Users\\Fix-Dell\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\dock\\l.applicaion\\obj\\",
+        "projectPath": "E:\\New folder\\InterviewTask\\l.applicaion\\l.applicaion.csproj",
+        "packagesPath": "C:\\Users\\Sabreen Essam\\.nuget\\packages\\",
+        "outputPath": "E:\\New folder\\InterviewTask\\l.applicaion\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Fix-Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Sabreen Essam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -175,14 +192,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Projects\\dock\\infrastructure\\infrastructure.csproj": {
-                "projectPath": "D:\\Projects\\dock\\infrastructure\\infrastructure.csproj"
+              "E:\\New folder\\InterviewTask\\infrastructure\\infrastructure.csproj": {
+                "projectPath": "E:\\New folder\\InterviewTask\\infrastructure\\infrastructure.csproj"
               }
             }
           }
@@ -191,7 +209,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -226,24 +250,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Projects\\dock\\UI\\UI.csproj": {
+    "E:\\New folder\\InterviewTask\\UI\\UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\dock\\UI\\UI.csproj",
+        "projectUniqueName": "E:\\New folder\\InterviewTask\\UI\\UI.csproj",
         "projectName": "UI",
-        "projectPath": "D:\\Projects\\dock\\UI\\UI.csproj",
-        "packagesPath": "C:\\Users\\Fix-Dell\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\dock\\UI\\obj\\",
+        "projectPath": "E:\\New folder\\InterviewTask\\UI\\UI.csproj",
+        "packagesPath": "C:\\Users\\Sabreen Essam\\.nuget\\packages\\",
+        "outputPath": "E:\\New folder\\InterviewTask\\UI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Fix-Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Sabreen Essam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -251,14 +276,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Projects\\dock\\l.applicaion\\l.applicaion.csproj": {
-                "projectPath": "D:\\Projects\\dock\\l.applicaion\\l.applicaion.csproj"
+              "E:\\New folder\\InterviewTask\\l.applicaion\\l.applicaion.csproj": {
+                "projectPath": "E:\\New folder\\InterviewTask\\l.applicaion\\l.applicaion.csproj"
               }
             }
           }
@@ -267,7 +293,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -303,7 +335,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

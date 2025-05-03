@@ -27,8 +27,8 @@ namespace infrastructure.Db
                 new IdentityUser
                 {
                     Id = "a94188ea-e7e6-4359-bebc-a489a675fba8",
-                    UserName = "ahmed",
-                    NormalizedUserName = "AHMED",
+                    UserName = "farah",
+                    NormalizedUserName = "FARAH",
                     Email= "ad@hh.com",
                     NormalizedEmail= "AD@HH.COM",
                     PasswordHash= "AQAAAAIAAYagAAAAEFaxE07NGTqsxIggMwbEwq6c8d7xq0PECWWPgQgrIKXDWssvqxCSXrtBGCS/cQIIFQ==",

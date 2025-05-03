@@ -13,3 +13,19 @@ D:\Projects\dock\infrastructure\obj\Debug\net8.0\infrastructure.dll
 D:\Projects\dock\infrastructure\obj\Debug\net8.0\refint\infrastructure.dll
 D:\Projects\dock\infrastructure\obj\Debug\net8.0\infrastructure.pdb
 D:\Projects\dock\infrastructure\obj\Debug\net8.0\ref\infrastructure.dll
+E:\New folder\InterviewTask\infrastructure\bin\Debug\net8.0\infrastructure.deps.json
+E:\New folder\InterviewTask\infrastructure\bin\Debug\net8.0\infrastructure.dll
+E:\New folder\InterviewTask\infrastructure\bin\Debug\net8.0\infrastructure.pdb
+E:\New folder\InterviewTask\infrastructure\bin\Debug\net8.0\domain.dll
+E:\New folder\InterviewTask\infrastructure\bin\Debug\net8.0\domain.pdb
+E:\New folder\InterviewTask\infrastructure\obj\Debug\net8.0\infrastructure.csproj.AssemblyReference.cache
+E:\New folder\InterviewTask\infrastructure\obj\Debug\net8.0\infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\New folder\InterviewTask\infrastructure\obj\Debug\net8.0\infrastructure.AssemblyInfoInputs.cache
+E:\New folder\InterviewTask\infrastructure\obj\Debug\net8.0\infrastructure.AssemblyInfo.cs
+E:\New folder\InterviewTask\infrastructure\obj\Debug\net8.0\infrastructure.csproj.CoreCompileInputs.cache
+E:\New folder\InterviewTask\infrastructure\obj\Debug\net8.0\infrastructure.sourcelink.json
+E:\New folder\InterviewTask\infrastructure\obj\Debug\net8.0\infrastr.D83B591B.Up2Date
+E:\New folder\InterviewTask\infrastructure\obj\Debug\net8.0\infrastructure.dll
+E:\New folder\InterviewTask\infrastructure\obj\Debug\net8.0\refint\infrastructure.dll
+E:\New folder\InterviewTask\infrastructure\obj\Debug\net8.0\infrastructure.pdb
+E:\New folder\InterviewTask\infrastructure\obj\Debug\net8.0\ref\infrastructure.dll
