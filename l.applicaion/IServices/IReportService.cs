@@ -1,11 +1,14 @@
-﻿using domain.Dto;
-using domain.Models;
+﻿
+using domain.Filters;
+using l.applicaion.DTOs;
+using l.application.DTOs;
+
 
 namespace l.applicaion.IServices
 {
     public interface IReportService
     {
-        Task<List<Transaction>> GetTransactionsReport(TransactionHistoryReportFilter filter);
-        Task<List<Product>> GetProductsBelowThreshould();
+        Task<List<ProductBelowThresholdDto>> GetProductsBelowThreshould();
+        Task<List<TransactionReportDto>> GetTransactionsReport(TransactionHistoryReportFilter filter);
     }
 }

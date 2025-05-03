@@ -4288,11 +4288,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\New folder\\InterviewTask\\l.applicaion\\l.applicaion.csproj",
+      "projectUniqueName": "E:\\New folder\\Inventory Management System\\l.applicaion\\l.applicaion.csproj",
       "projectName": "l.applicaion",
-      "projectPath": "E:\\New folder\\InterviewTask\\l.applicaion\\l.applicaion.csproj",
+      "projectPath": "E:\\New folder\\Inventory Management System\\l.applicaion\\l.applicaion.csproj",
       "packagesPath": "C:\\Users\\Sabreen Essam\\.nuget\\packages\\",
-      "outputPath": "E:\\New folder\\InterviewTask\\l.applicaion\\obj\\",
+      "outputPath": "E:\\New folder\\Inventory Management System\\l.applicaion\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4314,8 +4314,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "E:\\New folder\\InterviewTask\\infrastructure\\infrastructure.csproj": {
-              "projectPath": "E:\\New folder\\InterviewTask\\infrastructure\\infrastructure.csproj"
+            "E:\\New folder\\Inventory Management System\\infrastructure\\infrastructure.csproj": {
+              "projectPath": "E:\\New folder\\Inventory Management System\\infrastructure\\infrastructure.csproj"
             }
           }
         }

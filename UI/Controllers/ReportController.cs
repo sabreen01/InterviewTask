@@ -1,4 +1,5 @@
-﻿using domain.Dto;
+﻿
+using domain.Filters;
 using l.applicaion.CQRS;
 using l.applicaion.IServices;
 using Microsoft.AspNetCore.Http;
@@ -17,11 +18,12 @@ namespace UI.Controllers
         }
 
         [HttpGet("GetTransactionsReport")]
-        public async Task<IActionResult> GetTransactionsReport([FromQuery]TransactionHistoryReportFilter filter)
+        public async Task<IActionResult> GetTransactionsReport([FromQuery] TransactionHistoryReportFilter filter)
         {
-            var products = await _reportService.GetTransactionsReport(filter);
-            return Ok(products);
+            var transactions = await _reportService.GetTransactionsReport(filter);
+            return Ok(transactions);
         }
+
 
         [HttpGet("GetProductsBelowThreshould")]
         public async Task<IActionResult> GetProductsBelowThreshould()

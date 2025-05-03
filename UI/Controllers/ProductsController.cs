@@ -44,7 +44,7 @@ namespace UI.Controllers
         public async Task<IActionResult> Delete(int id)
         {
             await _mediator.Send(new DeleteProductCommand(id));
-            return  Ok();
+            return Ok();
         }
 
 
@@ -54,7 +54,6 @@ namespace UI.Controllers
             await _mediator.Send(new UpdateProductCommand(product));
             return Ok();
         }
-        // Add Update and Delete similarly...
     }
 
 }

@@ -1,0 +1,31 @@
+# Ignore Visual Studio folders and files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+
+# IIS Express
+*.vspscc
+*.vssscc
+*.scc
+
+# User-specific files
+*.csproj.user
+
+# Rider
+.idea/
+
+# Node modules (if applicable)
+node_modules/
+
+# Log files
+*.log
+
+# OS-generated files
+.DS_Store
+Thumbs.db

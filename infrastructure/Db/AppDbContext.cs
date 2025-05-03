@@ -45,7 +45,24 @@ namespace infrastructure.Db
                    
                }
                );
+
            
+            modelBuilder.Entity<TransactionType>().HasData(
+                new TransactionType
+                {
+                    Id = 1,
+                    Name = "Add",
+                  
+                },
+                new TransactionType
+                {
+                    Id = 2,
+                    Name = "Remove",
+                   
+                }
+            );
+
+
             base.OnModelCreating(modelBuilder);
         }
 

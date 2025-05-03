@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\New folder\\InterviewTask\\domain\\domain.csproj": {}
+    "E:\\New folder\\Inventory Management System\\domain\\domain.csproj": {}
   },
   "projects": {
-    "E:\\New folder\\InterviewTask\\domain\\domain.csproj": {
+    "E:\\New folder\\Inventory Management System\\domain\\domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\New folder\\InterviewTask\\domain\\domain.csproj",
+        "projectUniqueName": "E:\\New folder\\Inventory Management System\\domain\\domain.csproj",
         "projectName": "domain",
-        "projectPath": "E:\\New folder\\InterviewTask\\domain\\domain.csproj",
+        "projectPath": "E:\\New folder\\Inventory Management System\\domain\\domain.csproj",
         "packagesPath": "C:\\Users\\Sabreen Essam\\.nuget\\packages\\",
-        "outputPath": "E:\\New folder\\InterviewTask\\domain\\obj\\",
+        "outputPath": "E:\\New folder\\Inventory Management System\\domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

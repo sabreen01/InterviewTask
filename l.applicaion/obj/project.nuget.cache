@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PSIEIQhU/T4=",
+  "dgSpecHash": "KdgOAKiDwKE=",
   "success": true,
-  "projectFilePath": "E:\\New folder\\InterviewTask\\l.applicaion\\l.applicaion.csproj",
+  "projectFilePath": "E:\\New folder\\Inventory Management System\\l.applicaion\\l.applicaion.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sabreen Essam\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Sabreen Essam\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

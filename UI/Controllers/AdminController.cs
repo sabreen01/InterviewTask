@@ -18,7 +18,7 @@ namespace UI.Controllers
         [HttpGet]
         public async Task<IActionResult> sayhello()
         {
-            string userId = User.FindFirstValue(ClaimTypes.NameIdentifier); // or ClaimTypes.Name
+            string userId = User.FindFirstValue(ClaimTypes.NameIdentifier); 
 
             return Ok(new { userId });
         }
