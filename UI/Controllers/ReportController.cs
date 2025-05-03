@@ -1,35 +1,33 @@
-﻿
-using domain.Filters;
+﻿using domain.Filters;
 using l.applicaion.CQRS;
-using l.applicaion.IServices;
-using Microsoft.AspNetCore.Http;
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
 namespace UI.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
+    [Route("api/[controller]")]
     public class ReportController : ControllerBase
     {
-        private readonly IReportService _reportService;
-        public ReportController(IReportService reportService)
+        private readonly IMediator _mediator;
+
+        public ReportController(IMediator mediator)
         {
-            _reportService = reportService;
+            _mediator = mediator;
         }
 
         [HttpGet("GetTransactionsReport")]
         public async Task<IActionResult> GetTransactionsReport([FromQuery] TransactionHistoryReportFilter filter)
         {
-            var transactions = await _reportService.GetTransactionsReport(filter);
-            return Ok(transactions);
+            var result = await _mediator.Send(new GetTransactionsReportQuery(filter));
+            return Ok(result);
         }
 
-
-        [HttpGet("GetProductsBelowThreshould")]
-        public async Task<IActionResult> GetProductsBelowThreshould()
+        [HttpGet("GetProductsBelowThreshold")]
+        public async Task<IActionResult> GetProductsBelowThreshold()
         {
-            var products = await _reportService.GetProductsBelowThreshould();
-            return Ok(products);
+            var result = await _mediator.Send(new GetProductsBelowThresholdQuery());
+            return Ok(result);
         }
     }
 }
